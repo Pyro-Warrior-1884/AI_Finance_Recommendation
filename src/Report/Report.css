@@ -1,0 +1,162 @@
+@import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@400;500;700;900&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;  
+}
+
+/* Containers */
+.app-container-repo {
+  background: url("/src/Blue_Background.jpg") no-repeat center center;
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  height: 100vh;
+  position: relative;
+}
+
+.reports-container {
+  width: 100%;
+  max-width: 1800px;
+  background: rgba(255, 255, 255, 0.15); 
+  border-radius: 20px;
+  padding: 2rem;
+  margin-top: 2rem;
+  box-shadow: 0 10px 30px rgba(255, 255, 255, 0.1);
+  backdrop-filter: blur(15px); 
+  overflow: auto; 
+  scrollbar-width: none;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  overflow-y: auto;
+  max-height: 60vh;
+  transition: all 0.3s ease-in-out;
+}
+
+/* Buttons */
+.button-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    width: 100%;
+    margin-top: 20px;
+}
+
+.submit-button-repo {
+    font-family: 'Orbitron', sans-serif;
+    border: none;
+    padding: 1rem 2rem;    
+    border-radius: 10px;
+    cursor: pointer;
+    flex: 1;
+    max-width: 550px;
+    background-color: #000;
+    color: #fff;
+    font-size: 1.8rem;
+    text-align: center;
+    transition: all 0.5s ease-in-out;
+}
+
+.submit-button-repo:hover {
+    background-color: #7c7c7c;
+    color: #000;
+}
+
+.submit-button-repo:active {
+    background-color: #444;
+    color: #ddd;
+    box-shadow: 0 0 15px rgba(255, 255, 255, 0.5);
+}
+
+/* Card */
+.card-rep {
+    background-color: rgba(0, 0, 0, 0.7);
+    border: 2px solid rgba(0, 124, 247, 0.3);
+    backdrop-filter: blur(10px);
+    padding: 2rem;
+    border-radius: 2rem;
+    margin-top: 0;
+    width: 1600px;
+    height: 90vh;
+    max-width: 95%;    
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+}
+
+/* Reports */
+.report-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+}
+
+.report-header p b {
+  margin: 0;
+  padding: 0;
+  color: black;
+  font-family: "Open Sans", sans-serif !important;
+}
+
+.report-item {
+  width: 100%;
+  font-size: 1.5rem;
+  background: rgba(255, 255, 255, 0.2);
+  border-radius: 15px;
+  padding: 1rem;
+  margin-bottom: 1rem;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+  transition: transform 0.2s ease-in-out, background 0.3s ease-in-out;
+}
+
+.report-item:hover {
+  transform: translateY(-5px);
+  background: rgba(255, 255, 255, 0.3);
+}
+
+.report-item p, 
+.report-item p strong {
+  font-family: "Open Sans", sans-serif;
+  color: #000000;
+}
+
+.report-details {
+  font-family: "Open Sans", sans-serif;
+  color: #000000;
+  text-align: left;
+}
+
+/* Other Elements */
+.show {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: linear-gradient(135deg, rgba(26, 26, 26, 0.8), rgba(51, 51, 51, 0.8)); /* Transparent Dark */
+    border-radius: 20px;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.5);
+    padding: 2rem;
+    text-align: center;
+}
+
+.gradient-text-repo {
+    font-family: 'Orbitron', sans-serif;
+    font-size: 2rem;
+    background: linear-gradient(to right, #000000, #636363); /* Black to Gray */
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    display: inline-block;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    text-shadow: 2px 2px 10px rgba(255, 255, 255, 0.2);
+    -webkit-text-stroke: 2px white;
+}
+
