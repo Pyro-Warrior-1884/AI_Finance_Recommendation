@@ -53,7 +53,7 @@ The AI Financial Management Recommendation project is a web application designed
     REACT_APP_FIREBASE_STORAGE_BUCKET=<your_storage_bucket>
     REACT_APP_FIREBASE_MESSAGING_SENDER_ID=<your_sender_id>
     REACT_APP_FIREBASE_APP_ID=<your_app_id>
-    2.  Open your browser and navigate to `http://localhost:3000`.
+2.  Run the Code Locally, Open your browser and navigate to `http://localhost:3000`.
 3.  Input your financial details to receive personalized recommendations.
 4.  Review the AI-generated insights displayed on the page.
 
