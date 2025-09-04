@@ -1,10 +1,6 @@
 
 # AI Financial Management Recommendation
 
-[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
-[![React](https://img.shields.io/badge/React-20232A?style=flat&logo=react&logoColor=61DAFB)](https://react.dev/)
-[![Firebase](https://img.shields.io/badge/Firebase-FFCA28?style=flat&logo=firebase&logoColor=black)](https://firebase.google.com/)
-
 ## Table of Contents
 
 1.  [Introduction](#introduction)
@@ -73,6 +69,3 @@ The AI Financial Management Recommendation project is a web application designed
 
 > Please adhere to the coding standards and guidelines of the project.
 
-## License
-
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
